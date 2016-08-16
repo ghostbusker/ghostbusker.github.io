@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+#header {
+	text-align: center;
+	font-family: helvetica;
+	font-size: 45px;
+}
+
+#container {
+  text-align: center;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
+
+.footer {
+  display: inline-block;
+  position: fixed;
+  bottom: 0;
+  height: 4em;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.footer-box {
+  display: inline-block;
+  font-family: arial;
+  height: 100%;
+}
